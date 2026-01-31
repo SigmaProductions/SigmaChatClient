@@ -25,12 +25,14 @@ export default function Loading() {
         src="/marek_left.gif"
         style={animateLeft}
         className="absolute left-[calc(50%-150px)]"
+        unoptimized
         {...size}
       ></Image>
       <Image
         alt="Loading"
         className="absolute left-[calc(50%-150px)]"
         src="/marek_body.gif"
+        unoptimized
         {...size}
       ></Image>
       <Image
@@ -38,6 +40,7 @@ export default function Loading() {
         src="/marek_right.gif"
         style={animateRight}
         className="absolute left-[calc(50%-150px)]"
+        unoptimized
         {...size}
       ></Image>
     </div>
