@@ -3,7 +3,7 @@
     "short_name": "SC",
     "icons": [
       {
-        "src": "cc.svg",
+        "src": "cc_bordered.svg",
         "sizes":"any",
         "type": "image/svg+xml",
         "purpose": "any maskable"
