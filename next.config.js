@@ -30,7 +30,7 @@ const nextConfig = {
                 destination: '/auth/login',
             },
             {
-                source: '/:slug',
+                source: '/chat',
                 missing: [
                     {
                         type: 'cookie',
