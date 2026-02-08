@@ -27,7 +27,9 @@ self.addEventListener('push', function (event) {
         return self.registration.showNotification(data.title, {
           body: data.body,
           icon: data.icon || null,
-          badge: data.icon || null
+          badge: data.icon || null,
+          tag: 'new-message',
+          renotify: true
         });
       }
     }));
